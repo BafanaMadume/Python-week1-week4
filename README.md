@@ -109,7 +109,7 @@ so if the  condition is met and is true the code indented will be executed ,so m
 # FUNCTIONS
 python fuctions can be defined using the def keyword followed by the function name and also arguments which need to be in parentheses ,FUNCTION BODY is indented and contains the code that performs the desired operation on the inputs and the "RETURN" keyword is used to specify the output 
 
-def my_function():
+## def my_function():
     print("hello from a function")
 for calling the function use the function name followed by the parenthesis for example ,my_function()
 * functions also emcompass arguments  whereby information can be passed into functions as arguments ,so arguments are specified after the function name inside the parentheses
@@ -121,3 +121,94 @@ we use an uppercase letter for the class name, and we start defining all the fun
 All classes have a function called __init__(), which is always executed when the class is being initiated.
 Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
 The __str__() function controls what should be returned when the class object is represented as a string.
+
+# 1 BASIC DATA TYPES
+* Text Type = str 
+* Numeric Types = int ,float, complex
+* Sequence Types = list,tuple ,range
+* Mapping = dict
+* Set types = set .frozenset
+* Boolean Type = bool
+* Binary Types = bytes, bytearray,memoryview
+* None Type= NoneType
+
+  ## Example of each data type 
+  * x = "Hello World"                         = str
+  * x = 20                                    = int
+  * x = 20.5                                  = float
+  * x = ij                                    = complex
+  * x = ["apple","banana","cherry"]           = list
+  * x = ("apple","banana", "cherry")          = tuple
+  * x = range(6)                              = range
+  * x = {"name":"john","age":36}              = dict
+  * x = {"apple","banana","cherry"}           = set
+  * x = frozenset({"apple","banana","cherry"} = frozenset
+  * x = True                                  = bool
+  * x = b"Hello"                              = bytes
+  * x = bytearray(5)                          = bytearray
+  * x = memoryview(bytes(5))                  = memoryview
+  * x = None                                  = None
+
+## 1.1 INTS AND FLOATS
+int or integer is a whole number ,positive or negative without decimals of unlimited length
+float or floating point number is a number,that is positive or negative and it contains one or more decimals.
+*  x = 20                                    = int
+*  x = 20.5                                  = float
+
+## 1.2. BOOLEANS 
+booleans simply refers to True and False 
+
+### CASTING BOOLEANS
+integers can be used as booleans where by:
+0 =  False
+1 = true
+
+## 1.3. STRINGS
+Slicng refers to taking a portion of a string and returning it,
+* assinging a string to a variable is done with the variable name followed by an equal sign and the string
+##### EXAMPLE AND SYNTAX
+
+###### SLICING
+name = "MY name is Bafana Gift Madume "
+
+* name[0] = 'M'
+* name[0:7] = 'MY name'
+* name[11:30] = 'Bafana Gift Madume '
+
+###### FORMATING 
+F-String allow us to insert variables or expressions inside curly braces in a string
+
+* 'My number is:'+str(5) = output = 'My number is:5'
+* f'My number is:(5)' = using the f string
+
+###### MULTI_LINE STRINGS
+This is a feature for creating a  multiline string using triple quotes,
+if i want ot include triple quotes in the string we can escape them with a backlash
+
+## 1.4. Bytes
+This is the data passed around but rarely modifies directly,one can use byte array if you need to midift the data.one can treat byte array like a string and modify specific byte values using slice notation
+
+# 2 BASIC DATA STRUCTURE
+
+## 1.1 LIST 
+#### list slicing 
+from this negative values can be used to step backward through the list,but all operations allow for the extraction of data from lists or strings one value at a time
+
+* Examples
+* myList = [1,2,3,4,5] = output = [4, 5]
+  myList[3:]
+
+* for i in range(10): OUTPUT=[0123456789]
+    print(i)
+* myList = list(range(100))
+  - myList[::10] = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+  - myList[::-10] = [99, 89, 79, 69, 59, 49, 39, 29, 19, 9]
+ 
+#### Modifying list
+* To add an item to the end of the list
+  - Append()
+* inserting an item at a specific position
+  - insert()
+* To remove items from a list based on its value and not its index
+  -remove()
+  
