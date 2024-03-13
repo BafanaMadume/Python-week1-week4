@@ -283,7 +283,8 @@ The argument must be a dictionary, or an iterable object with key:value pairs.
 
 ### COPY A DICTIONARY 
 You cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will only be a reference to dict1, and changes made in dict1 will automatically also be made in dict2 ways to make a copy, one way is to use the built-in Dictionary method copy()
-
-
-
-  
+---
+---
+# LIST COMPREHENSION
+it offers a s way shorter syntax when you want to create a new list based on the values of an existing list
+  first list comprehension 
