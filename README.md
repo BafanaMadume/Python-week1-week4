@@ -211,4 +211,79 @@ from this negative values can be used to step backward through the list,but all 
   - insert()
 * To remove items from a list based on its value and not its index
   -remove()
+
+## Tuples()
+
+
+## SETS
+
+
+## DICTIONARIES
+Dictionaries are mainly used to store data values in key:value pairs,it is a collection which is ordered ,changeable and do not allow duplicates ,They are written with curly brackets and the have keys and values
+
+* **Examples**
+
+-thisdict = {
+  -  "brand":"ford",
+  -  "model": "Mustang",
+  -   "year" : 2020,
+  -  "year" : 2023
+- }
+
+## ACCESSING ITEMS IN A DICTIONARY
+
+ - thisdict = {
+   - "brand":"Ford",
+    -"model":"Mustang",
+    -"year": 2020
+-}
+-x = thisdict["model"] # accessing what is required
+- print(x) = mustang
+- thisdict.get("model") # get is also a fast method to obtain what is required
+
+  ### Keys()
+  * x = thisdict.keys() #keys() method will return a list of all the keys in the dictionary
+
+  ##### Adding  new item to the original dictionary
+  * car = {
+ - "brand":"Toyota",
+ - "model":"Corolla",
+ -"year" : 2024
+-}
+
+- x = car.keys()
+- print(x)
+
+- car["color"] = "white" # this is how you add a new key ot iten=m 
+
+- print(x)
+- dict_keys(['brand', 'model', 'year'])
+- dict_keys(['brand', 'model', 'year', 'color'])
+
+  ### items()
+  this method will return each item in a dictionary ,as tuples in a list
+
+  * x=thisdict.items()
+- print(x)
+
+#### Check if key exist
+kindly refer to python file with code
+
+### CHANGING VALUES
+#### update()
+update() method will update the dictionary with the items from the given argument.
+The argument must be a dictionary, or an iterable object with key:value pairs.
+
+### REMOVING ITEMS
+*refer to jupyter for more clarify on notes and code*
+* pop() = pop() method removes the item with the specified key name
+* popitem() = The popitem() method removes the last inserted item
+* del
+* clear() =  method empties the dictionary
+
+### COPY A DICTIONARY 
+You cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will only be a reference to dict1, and changes made in dict1 will automatically also be made in dict2 ways to make a copy, one way is to use the built-in Dictionary method copy()
+
+
+
   
