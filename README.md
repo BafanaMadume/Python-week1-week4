@@ -385,3 +385,60 @@ else:
 ![else if](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/6a37cf34-05a7-4e11-aaab-6ece93eb8fa4)
 
 ![example and how syntax must flow](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/7092d40a-04b5-447f-81e1-2415c19649e1)
+---
+---
+---
+
+# WHILE 
+With while loop we can execute a set of statements as long as a condition is true,
+with the break statement we can stop the loop the loop even if the while condtion is true 
+
+Break and continue can be used with the while
+
+**example**
+
+i = 1
+
+while i < 6:
+
+  print(i)
+  
+  i += 1
+
+  output = 1,2,3,4,5
+
+# FOR LOOP
+it is used for iterating over a sequence ***(either a list ,tuple ,a dictionary ,a set ,or a string*** 
+
+**Example**
+fruits = ["apples","banana","cherry","grapes"]
+
+for x in fruits:
+
+    print(x)
+* apples
+- banana
+- cherry
+- grapes
+
+for x in "banana":
+
+    print(x)  
+---
+
+friends = ['joe','john','james']
+
+for friend in friends: 
+
+    print("merry christmas:",friend)
+    
+print("done")
+
+output:
+merry christmas: joe
+
+merry christmas: john
+
+merry christmas: james
+
+done
