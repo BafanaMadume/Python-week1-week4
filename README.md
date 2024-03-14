@@ -286,5 +286,46 @@ You cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will
 ---
 ---
 # LIST COMPREHENSION
-it offers a s way shorter syntax when you want to create a new list based on the values of an existing list
+it offers a way shorter syntax when you want to create a new list based on the values of an existing list.A list comprehension is enclosed in square brackets 
+* list comprehension allows you to create a for loop in one line while also returning a copy of the list you're iterating over.it allows to enable filtering or applying funcctions to every item in a list
   first list comprehension 
+
+**SYNTAX FOR LISt COMPREHENSION**
+
+newlist = [expression ***for*** item ***in*** iterable ***if*** condition == True]
+
+## example:
+
+- myList = [1,2,3,4,5]
+- [2 * item for item in myList]
+
+* fruits =["apples" ,"banana","cherry","kiwi","mango"]
+* newlist = [x for x in fruits if "a" in x]
+
+  **SPLIT()**
+  * This functions allows you to split a string based on a given character or string
+ 
+    ---
+    ---
+    ---
+
+# BASIC CONTROL FLOW 
+
+Conditional statements 
+
+python supports the usual logical conditions from math
+
+* Equals : a == b
+* not equals: a != b
+* less than : a < b
+* less than or equal to : a<=b
+* greater than : a > b
+
+  ### IF statement
+  if the logical condtion is true,then the indented statement gets executed.if the logical condition is false,the indented statement is skipped
+
+  **Example**
+
+- if x > 0:                                                                        print(x is positive)
+
+![if statement](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/b56e2823-ead1-40b8-b0d5-c8a6955537a6)
