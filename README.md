@@ -230,7 +230,21 @@ print(thislist[-1])
 
 = *cherry*
 
+---
+### Range of indexes
+where to start and where to end the range.
 
+When specifying a range, the return value will be a new list with the specified items
+
+***Example 3***
+**Return the third, fourth, and fifth item**
+            1st  ,   2nd   ,    3rd   ,    4th  ,    5th  ,    6th  ,    7th  item 
+          
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
+            0    ,      1        
+
+print(thislist[2:5])
 
 
 
