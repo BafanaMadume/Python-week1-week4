@@ -1,4 +1,4 @@
-# Python-week1-week4
+# Python-week1
 # WEEK-1
 ### JUPYTER NOTES
 Run command on command Prompt =Type "jupyter notebook" in the command prompt.
@@ -190,8 +190,60 @@ This is the data passed around but rarely modifies directly,one can use byte arr
 
 # 2 BASIC DATA STRUCTURE
 
-## 1.1 LIST 
+## 2.1 LIST  [OCA]
+1. **Ordered**
+2. **Changeable**
+3. **Allow duplicate values.**
+
+* list items are indexed, the first item has index [0], the second item has index [1]
+
+  #### list() = use this when creating a new list
+---
+* Example
+  
+thislist = list(("apple","banana","cherry"))
+
+print(thislist)
+
+---
+### ACCESSING ITEMS ON LIST
+***Example 1:***
+
+**Print the second item of the list**
+
+thislist=["apple","banana","cherry"] #the list
+
+print(thislist[1])
+
+= *banana*
+
+---
+### Negative indexing ,basically starting from the end¶
+-1 refers to the last item, -2 refers to the second last item
+
+***Example 2:***
+**Print the last item of the list**
+
+thislist = ["apple","banana","cherry"];
+
+print(thislist[-1])
+
+= *cherry*
+
+
+
+
+
+
+
+
+
+
+
+
 #### list slicing 
+
+
 from this negative values can be used to step backward through the list,but all operations allow for the extraction of data from lists or strings one value at a time
 
 * Examples
@@ -219,6 +271,11 @@ from this negative values can be used to step backward through the list,but all 
 
 
 ## DICTIONARIES
+
+* **ordered**
+* **changeable**
+* **do not allow duplicates**
+  
 Dictionaries are mainly used to store data values in key:value pairs,it is a collection which is ordered ,changeable and do not allow duplicates ,They are written with curly brackets and the have keys and values
 
 * **Examples**
