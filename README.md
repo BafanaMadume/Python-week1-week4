@@ -245,20 +245,27 @@ Dictionaries are mainly used to store data values in key:value pairs,it is a col
   * x = thisdict.keys() #keys() method will return a list of all the keys in the dictionary
 
   ##### Adding  new item to the original dictionary
-  * car = {
- - "brand":"Toyota",
- - "model":"Corolla",
- -"year" : 2024
--}
+  car = {
+  
+ "brand":"Toyota",
+  
+ "model":"Corolla",
 
-- x = car.keys()
-- print(x)
+ "year" : 2024
+ 
+ }
 
-- car["color"] = "white" # this is how you add a new key ot iten=m 
+ x = car.keys()
+ 
+ print(x)
+ 
+ car["color"] = "white" # this is how you add a new key ot iten=m
 
-- print(x)
-- dict_keys(['brand', 'model', 'year'])
-- dict_keys(['brand', 'model', 'year', 'color'])
+print(x)
+
+dict_keys(['brand', 'model', 'year'])
+
+dict_keys(['brand', 'model', 'year', 'color'])
 
   ### items()
   this method will return each item in a dictionary ,as tuples in a list
@@ -321,11 +328,60 @@ python supports the usual logical conditions from math
 * less than or equal to : a<=b
 * greater than : a > b
 
-  ### IF statement
+  ## IF statement
   if the logical condtion is true,then the indented statement gets executed.if the logical condition is false,the indented statement is skipped
+  * NB!! please pay close attention to indentation whitespace at the beginning of a line
 
   **Example**
 
-- if x > 0:                                                                        print(x is positive)
+- if x > 0:
+
+    print(x is positive)
 
 ![if statement](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/b56e2823-ead1-40b8-b0d5-c8a6955537a6)
+
+
+## if else statement
+alternative execution in which two possibilities and the conditions determines which one is executed
+
+![if else](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/23df3e44-4993-464c-88c9-5fb12a424506)
+
+
+**Example** 
+x =2
+
+if x % 2 == 0:
+
+   print("x is even")
+   
+else:
+
+    print("x is odd")
+
+***output*** = x is even 
+
+
+## Elif (ELSE IF)
+this is a way of saying that if the previous conditions were not true then try this condition.this is mostly based on the fact that sometimes there are more than two possibilities and we need more than two branches
+
+***Example***
+x = 1
+
+y = 5
+
+if x < y:
+
+    print("x is less y")
+
+elif(x > y):
+
+   print("x is greater than y")
+
+else:
+
+   print("they are equal")
+
+
+![else if](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/6a37cf34-05a7-4e11-aaab-6ece93eb8fa4)
+
+![example and how syntax must flow](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/7092d40a-04b5-447f-81e1-2415c19649e1)
