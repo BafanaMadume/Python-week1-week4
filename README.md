@@ -246,15 +246,167 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
 print(thislist[2:5])
 
+---
+# Check if Item Exists
+***example 4***
+**Check if "apple" is present in the list:**
 
+thislist = ["apple", "banana", "cherry"]
 
+if "apple" in thislist:
 
+    print("yebo madala")
 
+---
+# CHANGE ITEM VALUE
+***example5***
+**Change the second item:**
 
+thislist = ["apple","banana","cherry"]
 
+thislist[2] = "grapes" use indexing
 
+print(thislist)
 
+# CHANGE A RANGE OF ITEM VALUES
+***example8**
+***Change the values "banana" and "cherry" with the values "blackcurrant" and "watermelon":**
 
+print("oldlist")
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"];
+
+print(thislist)
+
+print("newlist")
+
+thislist[1:3]=["blackcurrant","watermelon"]
+
+print(thislist)
+
+= **output**
+oldlist
+
+['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango']
+
+newlist
+
+['apple', 'blackcurrant', 'watermelon', 'orange', 'kiwi', 'mango']
+
+---
+# Python - Add List Items
+## APPEND ITEMS
+THIS IS TO ADD AN ITEM TO THE END OF A LIST
+
+**APPEND()**
+
+**Example**
+
+thislist=["apple","banana","cherry"]
+
+thislist.append("grapes");
+
+print(thislist)
+
+## INSERT ITEMS
+to insert item at a specified index
+
+**insert()**
+
+**Example**
+**Insert an item as the second position**
+
+thislist = ["apples","banana","cherry"];
+
+thislist.insert(1,"grapes")
+
+print(thislist)
+
+---
+## Extend List
+append elements from another list to the current list
+extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries 
+
+**extend()**
+
+**Example**
+
+namelist = ["Bafana","Tyrone","Gift"]
+
+surnamelist = ["Madume","Magadze","Baloyi"]
+
+namelist.extend(surnamelist)
+
+print(namelist)
+
+= ['Bafana', 'Tyrone', 'Gift', 'Madume', 'Magadze', 'Baloyi']
+
+---
+## Remove List Items
+
+**remove()**
+method removes the specified item
+
+***Remove "banana":***
+
+thislist = ["banana","apple","avocado"]
+
+thislist.remove("banana");
+
+print(thislist)
+
+## Remove Specified index
+
+**pop()** method that removes the specified index
+
+other option is 
+**del**
+
+**Example**
+thislist = ["banana","apple","avocado"]
+
+thislist.pop(0)
+
+print(thislist)
+
+---
+
+## Loop Through the Index Numbers
+
+loop through the list items by referring to their index number.
+
+Use the **range()** and **len()** functions to create a suitable iterable
+
+thislist = ["apples","banana","cherry"]
+
+for i in range(len(thislist)):
+
+    print(thislist[i])
+
+---
+# Python - Sort Lists
+
+Sort List Alphanumerically
+
+* List objects have a **sort()** method that will sort the list alphanumerical ascending, by default:
+
+* Sort Descending To sort descending, use the keyword argument reverse = True:
+
+# Copy a List
+
+cannot copy a list simply by typing list2 = list1, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2.
+
+There are ways to make a copy, one way is to use the built-in List method copy()
+* Another way to make a copy is to use the built-in method list()
+  
+**Example**
+thislist = ["apple", "banana", "cherry"]
+
+mylist = thislist.copy()
+
+print(mylist)
+
+---
 #### list slicing 
 
 
@@ -277,18 +429,61 @@ from this negative values can be used to step backward through the list,but all 
   - insert()
 * To remove items from a list based on its value and not its index
   -remove()
+---
 
-## Tuples()
+# Tuples()
+Tuple items are ordered, unchangeable, and allow duplicate values
+* Ordered
+* Unchangeable
+* Allow duplicates
+  
+# Change Tuple Values
+Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
 
+ workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple
 
-## SETS
+**Convert the tuple into a list to be able to change it:**
+
+x = ("apple", "banana", "cherry")
+
+y = list(x)
+
+y[1] = "kiwi"
+
+x = tuple(y)
+
+print(x)
+
+* tuples are unchangeable, so you cannot remove items from it, but you can use the same workaround as we used for changing and adding tuple items:
+
+  **example**
+
+  **Convert the tuple into a list, remove "apple", and convert it back into a tuple**
+
+thistuple = ("apple", "banana", "cherry")
+
+y = list(thistuple)
+
+y.remove("apple")
+
+thistuple = tuple(y)
+
+---
+
+## SETS{}
+A set is a collection which is unordered, unchangeable*, and unindexed
+* Note: Set items are unchangeable, but you can remove items and add new items.
+
+* ***unordered***
+* ***unchangeable***
+* ***unindexed***
 
 
 ## DICTIONARIES
 
-* **ordered**
-* **changeable**
-* **do not allow duplicates**
+* ***ordered***
+* ***changeable***
+* ***do not allow duplicates***
   
 Dictionaries are mainly used to store data values in key:value pairs,it is a collection which is ordered ,changeable and do not allow duplicates ,They are written with curly brackets and the have keys and values
 
