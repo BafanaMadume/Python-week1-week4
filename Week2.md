@@ -28,12 +28,23 @@ so when information is passed into functions ,it is passed as arguments.
 ## ARBITRARY KEYWORD ARGUMENTS , **kwargs
 
 *  If we don't know how many keyword arguments that will be passed into your function,add two asterisk :** before the parameter name in the function definition.
-*  This way  the function will receive a ***~dictionary~***
+*  This way  the function will receive a ***~dictionary of arguments~*** and can access the items accordingly.
 
+# Default Parameter Value
+how to use a default parameter value,so if we call function without argument ,it uses a default value.
 
+# Passing a List as an Argument
+* You can send any data types of argument to a function(string,number,list,dictionary etc), it will  be treated as the same data type inside the function.
+* **If you send a list as an argument ,it will still be a list when it reaches the function:**
 
 ## 1.1 Anatomy of a Function
 * Functions are composed of a name and parameters,they are denoted by a **def** statement
+
+  ### Return Values
+  * To let a function return a value ,use the return statement
+
+  ### Pass Statement
+  * function definitions cannot be empty ,if by chance we have a function definition with no content ,put in the pass statement to avoid getting an error
 ---
 # 2. CLASSES AND OBJECTS FUNDAMENTALS
 ---
