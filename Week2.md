@@ -44,7 +44,24 @@ how to use a default parameter value,so if we call function without argument ,it
   * To let a function return a value ,use the return statement
 
   ### Pass Statement
-  * function definitions cannot be empty ,if by chance we have a function definition with no content ,put in the pass statement to avoid getting an error
+  * function definitions cannot be empty ,if by chance we have a function definition with no content ,put in the pass statement to avoid getting an error.
+---
+
+## 1.2 VARIABLES AND SCOPE
+This is how global and local variables interact in python .
+
+#### Function Scope
+This allowed us to see a tuple and dictionary of the passed arguments ,Another method allows us to access all variables with a python function without any aserisks.This method is called the **"locals"** function
+
+##### LOCALS()
+a variable that is created inside a function belongs to the local scope of that function,and can only be used inside that function
+* Variable names that are only accessible locally within the function
+
+##### GLOBAL()
+A variable created in the main body of the python code is a global variable and beongs to the global scope .
+* Global variables are available from within any scope,global and local
+* A variable created outside of a function is global and can be used by anyone
+
 ---
 # 2. CLASSES AND OBJECTS FUNDAMENTALS
 ---
