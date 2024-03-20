@@ -62,6 +62,17 @@ A variable created in the main body of the python code is a global variable and 
 * Global variables are available from within any scope,global and local
 * A variable created outside of a function is global and can be used by anyone
 
+## Function As Variables
+### Variables as function
+* Variables and function both have names and data associated with them .but for functions ,this data includes information about required parameters and the lines of instruction to be executed
+* **A function is represented as an object in python**
+
+  ## Viewing Function data with _code_
+  * "code" attribute of python function objects can be used to confirm that functions are just variables in python.
+
+  ## Text Processing in Python
+  We have two text processing operations ,and a function that can make the text lowercase,
+  remove punctuation ,new lines ,and words that are three characters or less,it can also  remove 
 ---
 # 2. CLASSES AND OBJECTS FUNDAMENTALS
 ---
