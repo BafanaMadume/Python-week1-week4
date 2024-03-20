@@ -85,6 +85,15 @@ It is a small anonymous function.It can take any number of arguments,but can onl
   
 ---
 # 2. CLASSES AND OBJECTS FUNDAMENTALS
+Python is an object oriented language ,almost everything i python is an object,with its properties and methods .
+
+Class is like an object constructor or a "blueprint" for creating objects
+## CREATE A CLASS
+To create a class use the keyword ```class```:
+
+### The_init_()Function
+this is executed when the class is being initiatedm we use the _init_() function to assign values to object properties or other operations that are necessary to do when the object is being created:
+
 ---
 # 3. ERROR HANDLING FUNDAMENTALS
 ---
