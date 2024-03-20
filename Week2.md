@@ -72,7 +72,17 @@ A variable created in the main body of the python code is a global variable and 
 
   ## Text Processing in Python
   We have two text processing operations ,and a function that can make the text lowercase,
-  remove punctuation ,new lines ,and words that are three characters or less,it can also  remove 
+  remove punctuation ,new lines ,and words that are three characters or less,it can also  remove
+
+## Lambda Functions
+It is a small anonymous function.It can take any number of arguments,but can only have one expression
+
+***syntax = lambda arguments : expression***
+* lambda functions can come handy when you need to pass a function as an argument to another python function ,such as the sorted function that sorts a list of values.
+
+  ### Reason we use lambda
+  power of lambda is better shown when you use thm as an anonymous function inside another function.
+  
 ---
 # 2. CLASSES AND OBJECTS FUNDAMENTALS
 ---
