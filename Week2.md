@@ -94,6 +94,12 @@ To create a class use the keyword ```class```:
 ### The_init_()Function
 this is executed when the class is being initiatedm we use the _init_() function to assign values to object properties or other operations that are necessary to do when the object is being created:
 
+## Instance Attributes
+so this is where we have two instance attributes such as name and legs,these are attributes that every instance of the dog classes possesses.so when we name a class rover we can print rover its name and legs using my.dog.name and my.dog.legs respectively
+
+## Static Attributes
+so instead of keeping it in the constructor,we deine it as a static variable outside of the constructor.
+
 ---
 # 3. ERROR HANDLING FUNDAMENTALS
 ---
