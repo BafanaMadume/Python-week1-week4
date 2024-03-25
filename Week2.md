@@ -138,5 +138,7 @@ We are working a little more directly with the operating system and so there are
 open this file in the read mode and if we print f at this point, we get a file object.
 there are a couple of ways to get the actual text inside the file. And the first is readline, so f.readline. This reads the lines of the file one at a time.there are a couple of ways to get the actual text inside the file. And the first is readline, so f.readline. This reads the lines of the file one at a time.
 
+## Appending Files
+ We are going to do something similar to this but instead of an R, use a W for write. We are also going to call this output.txt,
 
 ---
