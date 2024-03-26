@@ -95,3 +95,6 @@ since our requirements are captured,we need to organize and structure the code f
 * Grouping related nouns together such as content and email,provides a starting point for potential classes.Content email,and Gui emerge as candidate for classes,the behaviours and responsiblities are determined by extracting simplified verb phrases from requirements.
 
 ![figure8](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/8fa87fef-7afb-46d0-838a-fe8b5d5cd695)
+
+## Stub code
+python modules : dd_content.py,dd_email.py,dd_gui.py
