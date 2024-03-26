@@ -70,4 +70,28 @@ As a bill payer, I want to schedule automatic payments for my bills so that I ne
       - Maintainability
       - reliability
       - usability
+   
+### ARCHITECTURE
+since our requirements are captured,we need to organize and structure the code for presentation purposes,since python is an object oriented programming language,considering objects and classes is essential
+* BY looking at the requirements,use cases and user stories , identifying nouns helps determine potential objects
+* In functional requirements words like:
+  - quote
+  - forecast
+  - location
+  - trends
+  - article
+  - content
+  - email
+  - recipients
+* Grouping together related nouns such as content and emails provides a starting point for potential classes.
+* Content class is responsible for generating and retrieving content
+* email class handles formatting content and sending emails,
+* GUI class manages configuration- related behaviours
+  BY doing this the process helps draft method names and provides an initial structure for the program
+  GUI =  Graphical User Interface. It's the way you interact with most electronic devices
         
+![figure7](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/c5d264ee-3f8d-4b87-b4cb-502d9af49621)
+
+* Grouping related nouns together such as content and email,provides a starting point for potential classes.Content email,and Gui emerge as candidate for classes,the behaviours and responsiblities are determined by extracting simplified verb phrases from requirements.
+
+![figure8](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/8fa87fef-7afb-46d0-838a-fe8b5d5cd695)
