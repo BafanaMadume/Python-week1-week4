@@ -25,8 +25,10 @@ Data types in python define the kind of data a variable can hold.They determine 
 * To use the decimal module you need to import the decimal class and the getcontext function at the top of your code.
 * getcontext() function returns a context object that holds global settings for using the decimal class.
 
-## 1.2 String Type `(str)`
+## 1.2 String Type `(str)`:
 * Strings represent sequences of characters including letters,numbers,symbols ,and spaces.They are enclosed in single `(')` or double`(")` quotes.`(e.g , "Hello,world",'This is a string')`
 
-## 1.3 Boolean Type `(bool)`
+## 1.3 Boolean Type `(bool)`:
+* Booleans represent logical values: True and False.They arw used for conditional state
+
 
