@@ -98,3 +98,24 @@ since our requirements are captured,we need to organize and structure the code f
 
 ## Stub code
 python modules : dd_content.py,dd_email.py,dd_gui.py
+
+## dd_email.py
+![dd_email](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/f8b391bd-2470-41f1-8f14-a0620a60b1ed)
+
+this code defines a class called `DailyDigitalEmail` that likely represents an email notification system.
+
+**Class Definition:**
+
+* `class DailyDigitalEmail:`: This line defines a new class named `DailyDigitalEmail`. Classes are blueprints for creating objects that share similar properties and behaviors.
+
+**Class Methods:**
+
+* `def __init__(self) :`: This is a special method called the constructor. It's automatically called whenever you create a new instance (object) of the `DailyDigitalEmail` class. In this case, the constructor is empty (`pass`), but it can be used to initialize any default values or configurations for the email object.
+* `def send_email(self):`: This method likely handles sending the actual email notification. It presumably takes care of composing the email message, specifying recipients, and utilizing an email service to deliver it. However, the code doesn't show the implementation details of how the email is sent.
+* `def format_message(self):`: This method is probably responsible for formatting the content of the email message. It might involve creating the email body, including text, images, or attachments. Similar to `send_email`, the specific formatting logic isn't provided in this code snippet.
+
+**Main Block:**
+
+* **if __name__ == '__main__':**`: This block is used to encapsulate code that should only run when the script is executed directly (not imported as a module). It's currently empty (`pass`), but typically this section would contain test code to verify the functionality of the class methods. 
+
+
