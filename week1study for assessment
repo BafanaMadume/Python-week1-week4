@@ -1,0 +1,12 @@
+1.Variables and types
+2 data structures
+3.operators
+4.control flow
+5. function introduction
+6.classes and objects intro
+
+1.VARIABLES AND TYPES
+* variables are fundamental building blocks in any programming language,they act like labeled containers that containers that store data for your program to manipulate
+* variable name can include upper and lower case letters as well as underscores,variable name traditionally begin with lowercase in python
+* We have several types of variables in python ,including integars ,which are whole numbers;floats which are decimal numbers ;complex numbers which are used for mathematical calculations
+
