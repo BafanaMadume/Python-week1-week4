@@ -276,4 +276,21 @@ it refers to how your program executes instructions in a specific order .it dete
     * a) Modify the loop counter to skip the current iteration.
     * b) Utilize the `next` statement (not commonly used for loop control).
     * c) **``Employ the `continue` statement to skip to the next iteration.``**
-    * d) Add a conditional statement to bypass specific code within the loop.  
+    * d) Add a conditional statement to bypass specific code within the loop.
+   
+  ---
+  ---
+  ---
+
+# WEEK 2 = PYTHON FUNDAMENTALS
+
+- 1. Basic functions
+- 2. classes and objects fundamentals
+- 3. Error Handling Fundamentals
+- 4. Threads and processes Fundamentals
+- 5. Fundamentals of working with files
+ 
+
+# FUNCTIONS
+functions are composed of a name and parameters ,name and parameters are denoted by a def statement
+
