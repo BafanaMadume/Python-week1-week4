@@ -315,3 +315,19 @@ functions are composed of a name and parameters ,name and parameters are denoted
 
 ## NAMED PARAMETERS
 also named arguments or keyword arguments ,are a way to pass arguments to a function by associating them with their parameter names during the function call
+* named parameters are useful for function with many optional arguments or when the order of arguments might not be intuitive
+* By understanding and using named parameters effectively, you can enhance the readability and maintainability of your Python code
+
+### *ARGS
+a rule when using keyword arguments in python ,they must come after the positional arguments.The order of the first two arguments
+* args represent a tuple that collects all non keyword arguments passed to the function
+* it allows you to accept an arbitrary number of positiopnal arguments beyond the defined parameters in the function signature
+* *args captures all arguments as a tuple within the function.
+
+### Kwargs 
+* represent a dictionary that collects all keyword argumentd passed to the function
+* it allows you to accept an arbitrary number of named arguments,providing more flexibilty in how arguments are passed
+
+## WHEN TO USE args and kwargs
+* use args when you expect a varying number of positional arguments and want to process them all
+* use **kwargs 
