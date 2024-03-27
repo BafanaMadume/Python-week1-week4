@@ -293,4 +293,25 @@ it refers to how your program executes instructions in a specific order .it dete
 
 # FUNCTIONS
 functions are composed of a name and parameters ,name and parameters are denoted by a def statement
+* def function_name(arguments):
+  
+    """ Docstring (optional) """
+  
+      Function body (code to be executed)
+  
+  return output_value (optional)
 
+  * def =  keyword to define a function.
+  * function_name: a descriptive name for your function (follows variable naming conversions)
+  * arguments : comma-separated list of variables that the function can accept as input (optional,can be empty parentheses()
+  * function body = the indented block of code that dfines the functions logic and operations
+  * return output value :a statement that specifies the value of the function a
+
+## Advantages of Functions:
+
+* Code Reusability: Functions allow you to write a piece of code once and use it multiple times throughout your program, reducing redundancy.
+* Improved Readability: Functions break down complex logic into smaller, manageable blocks with clear names, enhancing code readability.
+* Modularity: Functions promote modularity by grouping related code together, making the program easier to understand and maintain.
+
+## NAMED PARAMETERS
+also named arguments or keyword arguments ,are a way to pass arguments to a function by associating them with their parameter names during the function call
