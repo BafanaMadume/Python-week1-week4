@@ -141,5 +141,86 @@ it refers to how your program executes instructions in a specific order .it dete
 
 ## CONDITIONAL STATEMENTS
 
-* ``if`` statements
-   
+* ``if`` statements allows you to executr code blocks only when a certain condition is true
+* ``Elif`` else if way of saying that if the previous conditions were not true then try this condition
+
+---
+# MOCK QUESTIONS
+## Data types
+1.Which of the following data types can hold a decimal number in Python?
+- a) int
+- b) **``float``**
+- c) string
+- d) bool
+
+2. A variable in Python can store different data types throughout the program. (True/False)
+- a) **``True``**
+- b) False
+
+3.What data type is commonly used to represent text in Python?
+
+- a) number
+- b) character
+- c) **``string``**
+- d) text
+
+4.Which data type can hold a logical value (True or False)?
+
+- a) decimal
+- b) boolean
+- c) logical
+- d) **``bool``**
+
+5.How can you represent a collection of items of different data types in Python?
+
+- a) Single string with comma separation
+- b) Special collection data type
+- c) **``List ([])``**
+- d) Tuple (())
+---
+
+## Data structures
+6.Which data structure is most efficient for checking if an element exists in a collection?
+- a) list
+- b) tuple
+- c) **``set``**
+- d) dictionary
+
+7.Ordered collections of items that can be modified after creation are called:
+- a) **``lists``**
+- b) tuples
+- c) sets
+- d) dictionaries
+
+8.What is the key difference between a list and a tuple in Python?
+- a) Tuples can hold different data types, while lists cannot.
+- b) **``Lists are mutable, while tuples are immutable``**.
+- c) Tuples can store elements by reference, while lists store by value.
+- d) Lists are faster for accessing elements by index, while tuples are slower.
+  
+9.What data structure would you use to store unique elements and efficiently check if an element exists in the collection?
+
+- a) list
+- b) tuple (unchangeable order)
+- c) set
+- d) **``dictionary``**
+
+## Control Flow
+
+6.Which control flow statement allows you to repeat a block of code as long as a condition is true?
+- a) if
+- b) elif
+- c) for
+- d)**``while``**
+
+7.What is the correct way to define a function in Python?
+- a) **``def function_name(arguments): (code block)``**
+- b) function_name(arguments) = (code block)
+- c) func function_name(arguments): (code block)
+- d) function_name: (arguments) -> (code block)
+
+8.In Python, indentation is used for: (Select all that apply)
+- a) **``Defining code blocks within control flow structures (if, loops)``**
+- b) **``Improving readability of code``**
+- c) Specifying variable data types
+- d) Separating function arguments
