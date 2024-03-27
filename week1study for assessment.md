@@ -55,4 +55,32 @@ Data types in python define the kind of data a variable can hold.They determine 
 ## 1.3 Boolean Type `(bool)`:
 * Booleans represent logical values: True and False.They are used for conditional statements and other logic -based operations `(eg True,False)`
 
+## 1.4 BYTES
+Bytes represent a sequence of integers ranging from 0 to 255. They are fundamental for working with binary data, which is the raw form of information processed by computers.
+* Binary Data : Computers store and process information in binary format using bits (0s and 1s),bytes are a way to group these bits together
+* Not Text : Bytes are distinct from text data (strings)
+
+  Question and Answer
+  1. What is the value of int('101', 2)? = 5
+  2. What is the value of int(8.7)? = 8
+  3. What is the value of this statement? bool(-1) == 1 = True
+  4. What class might be used to store precise monetary amounts for a banking application? = decimal
+  5. What does bytes(4) do? = It creates an empty bytes object 4 bytes long
+
+---
+
+2. DATA STRUCTURES
+   2.1 Lists
+   2.2 Tuples
+   2.3 Sets
+   2.4 Dictionaries
+
+# 2.1. LIST `[]` 
+* **O**rdered
+* **C**hangeable
+* **A**llow duplicates values 
+
+
+
+
 
