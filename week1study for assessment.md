@@ -78,9 +78,61 @@ Bytes represent a sequence of integers ranging from 0 to 255. They are fundament
 # 2.1. LIST `[]` 
 * **O**rdered
 * **C**hangeable
-* **A**llow duplicates values 
+* **A**llow duplicates values
 
+  - We use SQUARE BRACKETS `[]`: Lists are enclosed in square brackets .i separate items within the brackets with commas
+  - list items are indexed ,the first item has index[0],the second item has index [1]
 
+### Common List Methods
 
+* ``append()``:add an element at the end of the list
+* ``insert()``:insert an element at a specific index
+* ``remove()``: Remove the first occurence of a value from the list
+* ``pop()``: Remove and return the element at a specific index(defaults to the last
+* ``extend()``= extend the list by appending all the items froman iterable
+* ``sort()``: Sort the list items in place(ascending order by default)
+* ``copy()``
 
+# 2.2 Tuples `()`
+* **O**rdered
+* **U**nchangeable =ideal for situations where you need data integrity and want to prevent accidental changes
+* **A**llow duplicates
 
+### Common Tuple Methods
+* ``Count()`` = count the number of occurence of a value within a tuple
+* ``index()`` = Find the index of the first occurrence of a value
+* ``len(tuple)`` = Get the length (number of elements) of the tuple
+
+* They provide data integrity and are efficient for small frequently accessed data
+* use them when you don't need to modify the content after creation.
+
+## 2.3 SETS `{}`
+* **U**nordered
+* **U**nchangeable
+* **U**nindexed
+* **N**o duplicates
+
+  
+they offer a unique way to store and manipulate collections of items .sets focus on uniqueness rather than maintain order 
+* Curly braces : sets arew enclosed in curly braces {},and the elements within the braces are separated by commas
+
+## 2.4 Dictionaries
+theyn are often called associative,are fundamental data structures in python .they store data in a key-value format
+
+1. creating dictionaries:
+   curly braces {} dictionaries are enclosed in curly braces{} and items within curly braces consist of a key followed by a colon(:) and then its corresponding value.
+
+## Common dictionary Methods
+* **get(key,default)**=Retrieves the value for a key. If the key doesn't exist, you can optionally provide a default value to return
+* **keys()**= Returns a view of all the keys in the dictionary as a set
+* **values()**=Returns a view of all the values in the dictionary as a list.
+* **items()**=Returns a view of all key-value pairs in the dictionary as tuples.
+* **pop()**=Removes the key-value pair with the specified key and returns its value. If the key doesn't exist, you can optionally provide a default value.
+* **update()**=Updates the dictionary by adding key-value pairs from another dictionary (can overwrite existing keys).
+
+### WHEN TO USE DICTIONARIES
+* **Storing key-value pairs** = use dictionaries whenever you need to associate unique keys with data or information ,such as user profiles (username:"alice", email:"[email address removed]"
+* **fast lookups**=Accessing elements by key is very efficient in dictionaries, making them ideal for scenarios where you need to retrieve data based on a unique identifier.
+
+Dictionaries effectively, you can create well-structured and organized data representations in your Python programs
+   
