@@ -135,4 +135,11 @@ theyn are often called associative,are fundamental data structures in python .th
 * **fast lookups**=Accessing elements by key is very efficient in dictionaries, making them ideal for scenarios where you need to retrieve data based on a unique identifier.
 
 Dictionaries effectively, you can create well-structured and organized data representations in your Python programs
+
+# 3 CONTROL FLOW
+it refers to how your program executes instructions in a specific order .it determines the sequence in which the code is evaluated allowing you to make  decisions.repeat actions and structure your program's logic
+
+## CONDITIONAL STATEMENTS
+
+* ``if`` statements
    
