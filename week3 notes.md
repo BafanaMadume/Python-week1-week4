@@ -193,4 +193,9 @@ Here's a deeper dive into Tkinter:
 * **Real Python Tkinter Tutorial:** [https://realpython.com/tutorials/gui/](https://realpython.com/tutorials/gui/)
 * **Python GUI Programming with Tkinter book:** [https://nostarch.com/catalog/python](https://nostarch.com/catalog/python)
 
-By understanding Tkinter's functionalities and its place in Python GUI development, you can make informed decisions about whether it's the right tool for your project.
+Questions 
+* 1. what is the recommended approach for crafting a standard user story?
+     - = Describe a single scenario from th user's perspective.
+* 2. What is the description of the question that nonfunctional requirements need to address for an application
+     - = "how should it do something
+* 3. How can you  begin to determine what classes you will need for your python app?
