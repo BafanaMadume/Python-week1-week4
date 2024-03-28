@@ -195,7 +195,13 @@ Here's a deeper dive into Tkinter:
 
 Questions 
 * 1. what is the recommended approach for crafting a standard user story?
-     - = Describe a single scenario from th user's perspective.
+     - ``= Describe a single scenario from th user's perspective.``
 * 2. What is the description of the question that nonfunctional requirements need to address for an application
-     - = "how should it do something
+     - ``= "how should it do something``
 * 3. How can you  begin to determine what classes you will need for your python app?
+     - ``=Select nouns from your requirements``
+* 4. If you possess a python file named dd_email.py,what steps should you take to execute it within your terminal window
+     - ``=  python dd_email.py``
+* 5. How is use case different from a user story?
+     - ``= A use case focuses on how ,while a user story focuses on why``
+       
