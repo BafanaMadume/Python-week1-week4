@@ -204,4 +204,14 @@ Questions
      - ``=  python dd_email.py``
 * 5. How is use case different from a user story?
      - ``= A use case focuses on how ,while a user story focuses on why``
-       
+
+* 6.What is the first thing you should do after deciding to start a new programming project?
+    - ``= Determine what the program should do.``
+ ---
+ ---
+
+ # Writing and Formatting Email Messages
+ Before we can send an email , we need something to send ,so the next method we'll tackle if format message
+ * We have multiple ways to format an email,including plaintext or HTML
+ * MIMEMultipart class allows us to include both formats in a single email message,HTML is the more commonly used format for email these days
+![Screenshot 2024-04-02 113244](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/57f9f54c-a0e5-4bbe-8380-8ee53cb16864)
