@@ -157,3 +157,7 @@ there are a couple of ways to get the actual text inside the file. And the first
  We are going to do something similar to this but instead of an R, use a W for write. We are also going to call this output.txt,
 
 ---
+
+# CSV
+CSV is installed in python the only thing that is needed is to import CSV at the top
+*the CSV reader also has a neat function you can use called next. 
