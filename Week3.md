@@ -211,7 +211,11 @@ Questions
  ---
 
  # Writing and Formatting Email Messages
+ 
  Before we can send an email , we need something to send ,so the next method we'll tackle if format message
  * We have multiple ways to format an email,including plaintext or HTML
  * MIMEMultipart class allows us to include both formats in a single email message,HTML is the more commonly used format for email these days
 ![Screenshot 2024-04-02 113244](https://github.com/BafanaMadume/Python-week1-week4/assets/141032267/57f9f54c-a0e5-4bbe-8380-8ee53cb16864)
+
+* its better t have both plaintext and HTML versions in the daily digest email,so in order to achive that ,the format messages method gnerates both types of content
+* 
